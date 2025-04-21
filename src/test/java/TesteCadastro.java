@@ -4,7 +4,6 @@ import br.com.serverest.fabrica.FabricaCadastro;
 import br.com.serverest.paginas.PaginaCadastro;
 import br.com.serverest.paginas.PaginaLogin;
 import br.com.serverest.paginas.PaginaPrincipal;
-import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
