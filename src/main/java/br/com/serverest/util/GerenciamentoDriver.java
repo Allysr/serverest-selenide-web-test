@@ -10,9 +10,6 @@ public class GerenciamentoDriver {
             case "chrome":
                 Configuration.browser = "chrome";
                 Configuration.browserSize = "1920x1080";
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--incognito");
-                Configuration.browserCapabilities = options;
                 break;
 
             case "firefox":

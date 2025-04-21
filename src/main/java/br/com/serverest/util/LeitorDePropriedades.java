@@ -30,4 +30,5 @@ public class LeitorDePropriedades {
             throw new RuntimeException("Erro ao carregar propriedades", e);
         }
     }
+
 }

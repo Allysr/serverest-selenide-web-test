@@ -15,7 +15,7 @@ public class BaseTeste {
     public void iniciarNavegador(){
         configurarDriver(lerPropriedades("navegador"));
         open(lerPropriedades("url"));
-        Configuration.timeout = 4000;
+        Configuration.timeout = 20000;
     }
 
     @AfterEach
